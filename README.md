@@ -39,7 +39,7 @@ This project is a C++ implementation of a 3D Rasterizer that renders 3D scenes f
 - **Anti-Aliasing**: Implements Nx Anti-Aliasing (AA) to smooth jagged edges.
 
   <p align="center">
-    <img src="3d_rasterizer_results/3D_wahoo%20(with%20Lambertian%20shading).bmp" alt="3D Wahoo without AA" width="30%" />
+    <img src="3d_rasterizer_results/3D_wahoo%20(with%20Blinn-Phong%20shading).bmp" alt="3D Wahoo without AA" width="30%" />
     <img src="3d_rasterizer_results/3D_wahoo%20(4x%20AA).bmp" alt="3D Wahoo with 4x AA" width="30%" />
     <img src="3d_rasterizer_results/3D_wahoo%20(16x%20AA).bmp" alt="3D Wahoo with 16x AA" width="30%" />
   </p>
