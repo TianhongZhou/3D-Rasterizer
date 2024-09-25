@@ -7,13 +7,17 @@ This project is a C++ implementation of a 3D Rasterizer that renders 3D scenes f
 ## Features
 
 - **Rendering of 3D Models**: Supports rendering of complex geometric shapes such as cubes, dodecahedrons, and custom OBJ files, and colors them with corresponding texture.
+- **Perspective Camera**: Using perspective camera for rendering 3D objects, which involves the correctness of perspect.
   
   ![3D wahoo](3d_rasterizer_results/3D_wahoo%20(no%20Lambertian%20shading).bmp)
   
-- **Perspective Camera**: Using perspective camera for rendering 3D objects, which involves the correctness of perspect.
 - **Z-buffering**: Implement Z-buffering instead of Painter's Algorithm.
+
+  ![Z-buffering](3d_rasterizer_results/3D_twoTri.bmp)
+ 
 - **Multiple Shading Techniques**:
   - **Lambertian Shading**: For realistic diffuse reflection.
+    ![Lambertian](3d_rasterizer_results/3D_wahoo%20(with%20Lambertian%20shading).bmp)
   - **Blinn-Phong Shading**: For specular highlights and shininess effects.
   - **Toon Shading**: For stylized, cartoon-like rendering.
   - **Iridescent Shading**: For unique color-changing effects based on the viewing angle.
